@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our 3rd Month relationship anniversary 🥳🥰</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom, #fff6e6, #f9dbbd);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      width: 90%;
+      max-width: 700px;
+      background: #fff8e1;
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      position: relative;
+      text-align: center;
+      animation: fadeIn 2s ease;
+    }
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+    h2 {
+      font-size: 24px;
+      color: #4e342e;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      color: #5d4037;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+    .heart {
+      font-size: 40px;
+      color: #e91e63;
+      animation: floatHeart 4s infinite ease-in-out;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 25px;
+      background: #e91e63;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    h3 {
+      margin-top: 25px;
+      color: #4e342e;
+    }
+
+    @keyframes floatHeart {
+      0%, 100% { transform: translateY(0);}
+      50% { transform: translateY(-10px);}
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="page active" id="page1">
+      <div class="heart">❤️</div>
+      <h2>This Message Straight from My Heart 💖</h2>
+      <p>B🤤🤤I
+      Teen mahine ho gaye lekin har pal aisa lagta hai jaise abhi abhi dil ne aapka naam bolna seekha ho prr 
+      asli baat toh yeh hai ki har din aapka naam aur gehra ho gaya hai mere andar.</p>
+      <p>Aapko yaad hai pehli baar jab humne properly baat ki thi ☺️?
+      Us pal se lekar ab tak har ek moment ek movie ka scene ban gaya hai ek aisi movie jisme hero aur heroine 
+      ke beech ladayi bhi hoti hai, bht sari nok-jhok bhi, emotional scenes bhi, aur woh steamy romantic shots bhi,
+      dirty and seductive talks bhi from one sided but yeh sab woh hai jo koi bhi censor board kabhi pass nahi karega 🤭.</p>
+      <p>Aapke lipstick wale T shirt se lekar aapke body ki khushboo tak jo aapke baad bhi mere collar mein reh jaati thi 
+      mere birthday cake banaane se lekar woh chhoti chhoti gifts, ya woh aapke haathon se pyaar se mere haathon ko pakadna
+      sab yaad hai mujhe har ek detail, har ek nazar, har ek lamha yaad hai mujhe 🫂❣️.</p>
+      <p>Aur jab baat hoti hai thodi naughty dirty baaton ki toh woh bhi mere liye utni hi special hai jitni aapki aankhon 
+      ka woh innocent sparkle. B😚😚I,
+                                      Aap jab kehti ho ki “aaj thoda zyada miss kiya” toh meri body ka har cell aap mein
+      doobne ko bekarar ho jaata hai
+      Aap jab kehti ho, “I’m yours” toh uske baad mujhe apne paas aur kuch chahiye hi nahi hota😘😘.</p>
+      <button onclick="nextPage()">Next →</button>
+    </div>
+
+    <div class="page" id="page2">
+      <div class="heart">💓</div>
+      <p>Main sirf aapka hoon B❤️❤️I aur mujhe wo day bhi yaad hai jab humne dream kiya tha thande mausam mein, whisky
+      ke glass haathon mein, aap mere pass, main aapke sath aur uske baad woh long, hot, deep body massage jismein sirf 
+      main tha aap thi aur woh jazbaat woh connection jismein hum dono kho jaate hain🤭🫂❤️. </p>
+      <p>Aapke saath woh honeymoon dream, jahan hum bed pe nahi, ek dusre ke dil mein utarte hain jahan breakfast mein 
+      sirf chai nahi, aapka cheeky kiss milta hai 🤭💗. Jahan hum raat mein daru ke nashe mein nahi, ek dusre ke pyaar 
+      mein talli hote hain🥴😳.</p>
+      <p>Teen mahine aur ab lagta hai ki poori zindagi sirf aapke naam likhni hai mujhe aapse milkar mujhe pyaar pe
+      yakeen hua hai aur aapse  judkar mujhe zindagi jeene ka maza aya hai aaj humara 3rd month hai relationship ka 
+      Toh main aapko officially kehna chahta hoon😚😚.</p>      
+      <p>B👙👙I aap meri ho
+      Mujhe aapse aage kuch nahi chahiye na kisi aur ka pyaar, na kisi aur ki attention, na kisi aur ki irritation aap
+      hi meri heroine hain aap hi meri thakan ka aakhri thehraav aur aap hi meri dirty khayalon ki raah bhi 💗. </p>
+      <p>Bas itna samajh lo B(•) (•)I
+      Main sab kuch bhool sakta hoon,
+      Lekin aapse pyaar karna nahi.</p>
+      <p>I Love You Meri Jaan, Moto, Chuzzi, Dudu🤤🤤, B😚😚I Har pal, har angle se.
+      Emotionally, mentally, physically, spiritually aur haan, filmy bhi 😚💗.</p>
+      <h3>Forever yours — G ❤️</h3>
+    </div>
+  </div>
+
+  <script>
+    function nextPage() {
+      document.getElementById("page1").classList.remove("active");
+      document.getElementById("page2").classList.add("active");
+    }
+  </script>
+</body>
+</html>
